@@ -5,7 +5,7 @@
 
 body {
     background-color: rgb(89, 172, 226);
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -20,11 +20,34 @@ nav {
 
 nav ul li {
     display: inline-block;
+    margin: 0 50px;
 }
 
 main {
     display: inline-block;
-    width: 45%;
+    width: 60%;
+}
+
+h1 {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+article {
+    display: inline-block;
+}
+
+.small {
+    width: 200px;
+    margin: 10px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+h2 {
+    text-align: center;
 }
 
 aside {
@@ -33,5 +56,6 @@ aside {
     vertical-align: top;
     border: solid rgb(168, 231, 229);
     padding: 2em;
-    margin-left: 125px;
+    margin-left: 0;
+    margin-top: 70px;
 }
